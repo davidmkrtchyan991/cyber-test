@@ -22,7 +22,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">{{$book->name}}</h5>
                                         <p class="card-text">{{$book->author->name}} {{$book->release}}</p>
-                                        <p class="card-text">{{$book->publisher->name}} {{$book->category}}</p>
+                                        <p class="card-text">{{$book->publisher->name}} {{$book->category->name}}</p>
                                         <a href="#" class="btn btn-primary">Buy</a>
                                     </div>
                                 </div>
